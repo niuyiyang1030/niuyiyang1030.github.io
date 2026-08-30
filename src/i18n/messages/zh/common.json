@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "about": "关于",
+    "selectedProjects": "精选项目",
+    "checkOutLatestWork": "查看最新工作",
+    "research": "研究",
+    "viewFullPublications": "查看完整论文列表：",
+    "skills": "技能",
+    "education": "教育经历",
+    "workExperience": "工作经历",
+    "awards": "奖项与荣誉",
+    "academicServices": "学术服务",
+    "news": { "title": "最新动态" },
+    "publications": { "title": "论文" },
+    "invitedTalks": { "title": "受邀报告" },
+    "teaching": {
+      "title": "教学",
+      "reviewerConferencesLabel": "会议审稿：",
+      "reviewerJournalsLabel": "期刊审稿：",
+      "teachingLabel": "助教："
+    }
+  },
+  "showAll": "显示全部",
+  "navbar": {
+    "items": [
+      { "href": "/", "icon": "home", "label": "首页" },
+      { "href": "/blog", "icon": "notebook", "label": "博客" }
+    ],
+    "theme": "主题",
+    "language": "语言"
+  },
+  "blog": {
+    "title": "博客",
+    "titleWithName": "{name} 的博客",
+    "readMore": "阅读更多",
+    "authorLabel": "作者",
+    "readingTime": "{minutes} 分钟阅读",
+    "empty": "暂未发布文章。",
+    "toc": {
+      "title": "目录",
+      "toggle": "切换目录",
+      "close": "关闭目录",
+      "empty": "暂无目录"
+    },
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页",
+      "pageInfo": "第 {current} 页 / 共 {total} 页",
+      "previousLabel": "前往上一页",
+      "nextLabel": "前往下一页"
+    }
+  },
+  "privacyPolicy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新",
+    "body": "本静态网站目前不使用访问分析、广告追踪器、联系表单或服务端数据收集。外部链接适用其各自的隐私政策。"
+  },
+  "termsOfService": {
+    "title": "条款与免责声明",
+    "lastUpdated": "最后更新",
+    "body": "本网站信息仅供一般参考。学术与职业信息仅在本人提供并核实后发布。外部链接仅为方便访问而提供。"
+  }
+}

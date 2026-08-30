@@ -1,0 +1,23 @@
+{
+  "news": { "items": [] },
+  "projects": { "items": [] },
+  "publications": { "items": [] },
+  "education": { "items": [] },
+  "work": { "items": [] },
+  "awards": { "items": [] },
+  "invitedTalks": { "items": [] },
+  "teaching": { "items": [] },
+  "skills": [],
+  "reviewerConferences": [],
+  "reviewerJournals": [],
+  "social": {
+    "GitHub": {
+      "name": "GitHub",
+      "url": "https://github.com/niuyiyang1030",
+      "icon": "github",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    }
+  }
+}

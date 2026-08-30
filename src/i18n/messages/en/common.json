@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "about": "About",
+    "selectedProjects": "Selected Projects",
+    "checkOutLatestWork": "Check out my latest work",
+    "research": "Research",
+    "viewFullPublications": "View the full list of my publications on",
+    "skills": "Skills",
+    "education": "Education",
+    "workExperience": "Experience",
+    "awards": "Awards & Honors",
+    "academicServices": "Academic Services",
+    "news": { "title": "Latest News" },
+    "publications": { "title": "Publications" },
+    "invitedTalks": { "title": "Invited Talks" },
+    "teaching": {
+      "title": "Teaching",
+      "reviewerConferencesLabel": "Conference Reviewer:",
+      "reviewerJournalsLabel": "Journal Reviewer:",
+      "teachingLabel": "Teaching Assistant:"
+    }
+  },
+  "showAll": "Show All",
+  "navbar": {
+    "items": [
+      { "href": "/", "icon": "home", "label": "Home" },
+      { "href": "/blog", "icon": "notebook", "label": "Blog" }
+    ],
+    "theme": "Theme",
+    "language": "Language"
+  },
+  "blog": {
+    "title": "Blog",
+    "titleWithName": "{name}'s Blog",
+    "readMore": "Read more",
+    "authorLabel": "by",
+    "readingTime": "{minutes} min read",
+    "empty": "No posts have been published yet.",
+    "toc": {
+      "title": "Table of Contents",
+      "toggle": "Toggle table of contents",
+      "close": "Close table of contents",
+      "empty": "No table of contents available"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageInfo": "Page {current} of {total}",
+      "previousLabel": "Go to previous page",
+      "nextLabel": "Go to next page"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "body": "This static website does not currently use analytics, advertising trackers, contact forms, or server-side data collection. External links are governed by their respective privacy policies."
+  },
+  "termsOfService": {
+    "title": "Terms & Disclaimer",
+    "lastUpdated": "Last updated",
+    "body": "The information on this website is provided for general informational purposes. Academic and professional details will only be published after they are supplied and verified. External links are provided for convenience."
+  }
+}
