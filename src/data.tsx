@@ -13,12 +13,6 @@ export const DATA = {
     { href: "/", icon: Icons.home, label: "Home" },
     { href: "/blog", icon: Icons.notebook, label: "Blog" },
   ],
-  discover: [
-    {
-      name: "Website template",
-      url: "https://github.com/zhengzangw/nextjs-portfolio-blog-research",
-    },
-  ],
   contact: {
     social: {
       GitHub: {

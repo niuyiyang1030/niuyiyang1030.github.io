@@ -27,7 +27,6 @@ export default function Footer() {
         privacy: "隐私政策",
         terms: "条款与免责声明",
         updated: "最后更新",
-        template: "基于 MIT 模板",
       }
     : {
         navigation: "Navigation",
@@ -37,11 +36,13 @@ export default function Footer() {
         privacy: "Privacy Policy",
         terms: "Terms & Disclaimer",
         updated: "Last updated",
-        template: "Based on the MIT template",
       };
 
   return (
-    <footer className="bg-background/95 supports-[backdrop-filter]:bg-background/60 border-t backdrop-blur">
+    <footer
+      id="site-footer"
+      className="bg-background/95 supports-[backdrop-filter]:bg-background/60 border-t backdrop-blur"
+    >
       <div className="mx-auto max-w-7xl px-6 py-10 pb-20 sm:px-16 md:px-20 lg:px-24 xl:px-32">
         <div className="grid gap-8 sm:grid-cols-2">
           <div className="space-y-4">
@@ -82,35 +83,29 @@ export default function Footer() {
 
         <Separator className="my-8" />
 
-        <div className="text-muted-foreground space-y-3 text-sm">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-            <span>© {currentYear} {DATA.name}</span>
-            <span className="flex gap-2">
+        <div className="text-muted-foreground flex flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-col gap-1">
+            <span className="text-foreground">
+              © {currentYear} {DATA.name}
+            </span>
+            <span className="text-xs">
+              {labels.updated}: {DATA.lastUpdated}
+            </span>
+          </div>
+          <nav
+            aria-label={isChinese ? "法律信息" : "Legal information"}
+            className="flex flex-wrap items-center gap-x-3 gap-y-2 sm:justify-end"
+          >
               <Link href={privacyHref} className="hover:text-foreground">
                 {labels.privacy}
               </Link>
-              <span>•</span>
+              <span aria-hidden="true" className="text-border">
+                •
+              </span>
               <Link href={termsHref} className="hover:text-foreground">
                 {labels.terms}
               </Link>
-            </span>
-          </div>
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-            <span>
-              {labels.updated}: {DATA.lastUpdated}
-            </span>
-            <span className="inline-flex flex-wrap items-center gap-1">
-              {labels.template}{" "}
-              <a
-                href="https://github.com/zhengzangw/nextjs-portfolio-blog-research"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground underline hover:no-underline"
-              >
-                zhengzangw/nextjs-portfolio-blog-research
-              </a>
-            </span>
-          </div>
+          </nav>
         </div>
       </div>
     </footer>
