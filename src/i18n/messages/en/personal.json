@@ -5,10 +5,10 @@
     "family": "Niu",
     "initials": "YN"
   },
-  "subtitle": "牛怡扬",
-  "headline": "Graduate Student | AI & Large Language Models",
+  "subtitle": "Master's Student at Southeast University",
+  "headline": "Intelligent Science and Technology · Large Language Models",
   "welcome": "Welcome to my homepage",
   "ogImageUrl": "niuyiyang1030.github.io",
-  "bioMarkdown": "This is the personal academic homepage of **Yiyang Niu**. Academic background, research interests, education, experience, and publications will be added after they are provided and verified.",
-  "blogTagline": "Notes and articles will appear here when published."
+  "bioMarkdown": "I am a master's student in **Intelligent Science and Technology** at **Southeast University**, China. I received my bachelor's education in **Computer Science and Technology** from **Xinjiang University**. My research interests focus on **Large Language Models**, particularly **Mixture-of-Experts (MoE)**, **State Space Models (SSMs)**, and efficient neural architectures. I am interested in improving the efficiency, scalability, and architectural design of modern language models.",
+  "blogTagline": "Notes on research, learning, and technology."
 }
