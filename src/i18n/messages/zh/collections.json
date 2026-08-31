@@ -14,7 +14,7 @@
         "school": "东南大学",
         "href": "https://www.seu.edu.cn/",
         "degree": "智能科学与技术 · 硕士研究生",
-        "logoUrl": "",
+        "logoUrl": "/seu-logo.png",
         "start": "2025",
         "end": "2028"
       },
@@ -22,7 +22,7 @@
         "school": "新疆大学",
         "href": "https://www.xju.edu.cn/",
         "degree": "计算机科学与技术",
-        "logoUrl": "",
+        "logoUrl": "/xju-logo.jpg",
         "start": "2021",
         "end": "2025"
       }
