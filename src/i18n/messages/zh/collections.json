@@ -1,20 +1,69 @@
 {
-  "news": { "items": [] },
-  "projects": { "items": [] },
-  "publications": { "items": [] },
-  "education": { "items": [] },
-  "work": { "items": [] },
-  "awards": { "items": [] },
-  "invitedTalks": { "items": [] },
-  "teaching": { "items": [] },
+  "news": {
+    "items": []
+  },
+  "projects": {
+    "items": []
+  },
+  "publications": {
+    "items": []
+  },
+  "education": {
+    "items": [
+      {
+        "school": "东南大学",
+        "href": "https://www.seu.edu.cn/",
+        "degree": "智能科学与技术 · 硕士研究生",
+        "logoUrl": "",
+        "start": "2025",
+        "end": "2028"
+      },
+      {
+        "school": "新疆大学",
+        "href": "https://www.xju.edu.cn/",
+        "degree": "计算机科学与技术",
+        "logoUrl": "",
+        "start": "2021",
+        "end": "2025"
+      }
+    ]
+  },
+  "work": {
+    "items": []
+  },
+  "awards": {
+    "items": []
+  },
+  "invitedTalks": {
+    "items": []
+  },
+  "teaching": {
+    "items": []
+  },
   "skills": [],
   "reviewerConferences": [],
   "reviewerJournals": [],
   "social": {
+    "Email": {
+      "name": "邮箱",
+      "url": "mailto:yiyangniu1030@gmail.com",
+      "icon": "email",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
     "GitHub": {
       "name": "GitHub",
       "url": "https://github.com/niuyiyang1030",
       "icon": "github",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "LinkedIn": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yiyang-niu-2045aa432",
+      "icon": "linkedin",
       "navbar": false,
       "content": true,
       "footer": true
