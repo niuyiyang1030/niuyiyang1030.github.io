@@ -14,7 +14,7 @@
         "school": "Southeast University",
         "href": "https://www.seu.edu.cn/",
         "degree": "Master's Student in Intelligent Science and Technology",
-        "logoUrl": "",
+        "logoUrl": "/seu-logo.png",
         "start": "2025",
         "end": "2028"
       },
@@ -22,7 +22,7 @@
         "school": "Xinjiang University",
         "href": "https://www.xju.edu.cn/",
         "degree": "Computer Science and Technology",
-        "logoUrl": "",
+        "logoUrl": "/xju-logo.jpg",
         "start": "2021",
         "end": "2025"
       }
