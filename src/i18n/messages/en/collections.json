@@ -75,5 +75,6 @@
       "navbar": false,
       "content": true,
       "footer": true
+    }
   }
 }
