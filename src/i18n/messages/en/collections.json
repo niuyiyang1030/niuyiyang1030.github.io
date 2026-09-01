@@ -68,5 +68,12 @@
       "content": true,
       "footer": true
     }
+    "X": {
+      "name": "X",
+      "url": "https://x.com/NiuYiyang114",
+      "icon": "X",
+      "navbar": false,
+      "content": true,
+      "footer": true
   }
 }
